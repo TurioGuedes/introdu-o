@@ -2,10 +2,12 @@
 
 from controller import Robot
 import sys
+import math
 
 # Define the target motor position in radians.
-target = 1
-
+# comprimento = angulo * raio
+# angulo = comprimento / raio
+target = 0.250/0.021
 # Get pointer to the robot.
 robot = Robot()
 
